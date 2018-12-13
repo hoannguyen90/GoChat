@@ -33,29 +33,23 @@ class ChatViewController: JSQMessagesViewController {
         self.view.addSubview(button)
     }
     
-    var indd = 0
     @IBAction func crashButtonTapped(_ sender: AnyObject) {
-        indd = indd + 1
-        if indd == 1{
-        Analytics.setUserProperty("nofood", forName: "Pattern_Colla")
-        }else{
+        //        Analytics.setUserProperty("nofood", forName: "Pattern_Colla")
+        
         Analytics.logEvent(AnalyticsEventAddToWishlist, parameters: [
-            AnalyticsParameterItemID: "id-day la id",
-            AnalyticsParameterItemName: "day la name",
+            AnalyticsParameterItemID: "event id",
+            AnalyticsParameterItemName: "event name",
             AnalyticsParameterContentType: "cont"
             ])
-//
-//        Analytics.logEvent("hoan_hoan_hoan", parameters: [
-//            "name": "Doi la be kho 1111" as NSObject,
-//            "full_text": "quay dau la bo ai ngo la bien  1111" as NSObject
-//            ])
-
-        }
         
+        Analytics.logEvent("test_event", parameters: [
+            "name": "test event name" as NSObject,
+            "full_text": "test event description" as NSObject
+            ])
         
-//        Crashlytics.sharedInstance().crash()
+        //        Crashlytics.sharedInstance().crash()
     }
-    
+
     
     
     func observerUser(userId:String){
