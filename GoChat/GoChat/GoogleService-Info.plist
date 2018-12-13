@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>127370590279-cbf64fu0375iq6bukaqljg2kqtjla3uc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.127370590279-cbf64fu0375iq6bukaqljg2kqtjla3uc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBHXG7NXkNeXT7IT9D0tom8WBxhyrM9g78</string>
+	<key>GCM_SENDER_ID</key>
+	<string>127370590279</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>vn.com.hoan.GoChat</string>
+	<key>PROJECT_ID</key>
+	<string>gochat-ec979</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gochat-ec979.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:127370590279:ios:fd5f4eb715c098e2</string>
+	<key>DATABASE_URL</key>
+	<string>https://gochat-ec979.firebaseio.com</string>
+</dict>
+</plist>
